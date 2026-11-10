@@ -16,7 +16,7 @@
 # for the migration from hardcoded Kotlin constants to this YAML resource.
 
 version: "2026-04-09"
-last_reviewed: "2026-10-15"
+last_reviewed: "2026-11-10"
 
 artifacts:
   - path: "/data/local/tmp/.raptor"
@@ -48,6 +48,38 @@ artifacts:
     family: "predator"
     source: "amnesty"
     first_observed: "2023-03-28"
+
+  # RatHat RAT Wireless-Debugging ADB self-pairing staging binaries & touch log (Zimperium zLabs, Sep 2026).
+  - path: "/data/local/tmp/frpc"
+    family: "rathat"
+    source: "zimperium"
+    first_observed: "2026-09-15"
+
+  - path: "/data/local/tmp/local-service"
+    family: "rathat"
+    source: "zimperium"
+    first_observed: "2026-09-15"
+
+  - path: "/data/local/tmp/local-service.update"
+    family: "rathat"
+    source: "zimperium"
+    first_observed: "2026-09-15"
+
+  - path: "/data/local/tmp/app.apk"
+    family: "rathat"
+    source: "zimperium"
+    first_observed: "2026-09-15"
+
+  - path: "{ext_storage}/Android/data/locateValues.json"
+    family: "rathat"
+    source: "zimperium"
+    first_observed: "2026-09-15"
+
+  # Physical forensic extraction staging remnants (Cellebrite UFED / Connector).
+  - path: "/data/local/tmp/cellebrite"
+    family: "cellebrite"
+    source: "androdr-research"
+    first_observed: "2026-02-01"
 
   - path: "{ext_storage}/.hidden_config"
     family: "generic_stalkerware"

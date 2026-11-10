@@ -72,6 +72,7 @@ import java.util.Locale
 fun DashboardScreen(
     viewModel: DashboardViewModel = hiltViewModel(),
     alertsViewModel: DashboardAlertsViewModel = hiltViewModel(),
+    remediationViewModel: DashboardRemediationViewModel = hiltViewModel(),
     onNavigate: (String) -> Unit
 ) {
     val currentFindings by viewModel.currentFindings.collectAsStateWithLifecycle()
@@ -93,19 +94,32 @@ fun DashboardScreen(
         }
     }
 
-    // Re-check Usage Access permission on every lifecycle resume — this is
-    // how the banner disappears the moment the user returns from the system
-    // Settings screen after granting the permission. Without this hook the
-    // banner would stay stale until the next recomposition trigger.
+    LaunchedEffect(latestScan?.id) {
+        remediationViewModel.refreshImplants()
+    }
+
+    // Re-check Usage Access permission and live implants on every lifecycle resume — this is
+    // how the banner and threat list update the moment the user returns from system Settings
+    // or a package uninstall dialog.
     val lifecycleOwner = LocalLifecycleOwner.current
     DisposableEffect(lifecycleOwner) {
         val observer = LifecycleEventObserver { _, event ->
             if (event == Lifecycle.Event.ON_RESUME) {
                 viewModel.refreshUsageStatsPermission()
+                remediationViewModel.refreshImplants()
             }
         }
         lifecycleOwner.lifecycle.addObserver(observer)
         onDispose { lifecycleOwner.lifecycle.removeObserver(observer) }
+    }
+
+    val scanThreatPackages = remember(latestScan) {
+        latestScan?.appRisks
+            ?.asSequence()
+            ?.filter { it.triggered && it.level.lowercase() != "informational" }
+            ?.mapNotNull { it.matchContext["package_name"]?.takeIf(String::isNotBlank) }
+            ?.toSet()
+            .orEmpty()
     }
 
     Scaffold(
@@ -131,13 +145,20 @@ fun DashboardScreen(
                     modifier = Modifier.size(36.dp)
                 )
                 Spacer(modifier = Modifier.width(12.dp))
-                Text(
-                    text = stringResource(R.string.app_name),
-                    style = MaterialTheme.typography.headlineMedium,
-                    fontWeight = FontWeight.Bold,
-                    color = MaterialTheme.colorScheme.primary,
-                    modifier = Modifier.weight(1f)
-                )
+                Column(modifier = Modifier.weight(1f)) {
+                    Text(
+                        text = stringResource(R.string.app_name),
+                        style = MaterialTheme.typography.headlineMedium,
+                        fontWeight = FontWeight.Bold,
+                        color = MaterialTheme.colorScheme.primary
+                    )
+                    Text(
+                        text = stringResource(R.string.brand_built_by),
+                        style = MaterialTheme.typography.labelMedium,
+                        fontWeight = FontWeight.SemiBold,
+                        color = MaterialTheme.colorScheme.secondary
+                    )
+                }
                 IconButton(onClick = { onNavigate("settings") }) {
                     Icon(
                         imageVector = Icons.Filled.Settings,
@@ -199,6 +220,11 @@ fun DashboardScreen(
                     DiffBanner(newCount = newCount)
                 }
             }
+
+            RemediationCard(
+                viewModel = remediationViewModel,
+                scanThreatPackages = scanThreatPackages,
+            )
 
             // Open alerts (spec §5.4): they stay open until a person closes them, with the device
             // credential; grouped by rule and matched value, re-surfaced by latest activity.

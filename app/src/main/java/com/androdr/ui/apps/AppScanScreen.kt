@@ -416,10 +416,18 @@ private fun AppGroupDetailSheet(
             val hasRealPackage = group.packageName.isNotBlank()
             Button(
                 onClick = {
-                    val intent = Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS).apply {
-                        data = Uri.parse("package:${group.packageName}")
+                    try {
+                        val deleteIntent = Intent(
+                            Intent.ACTION_DELETE,
+                            Uri.parse("package:${group.packageName}")
+                        )
+                        context.startActivity(deleteIntent)
+                    } catch (ignored: Exception) {
+                        val fallback = Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS).apply {
+                            data = Uri.parse("package:${group.packageName}")
+                        }
+                        context.startActivity(fallback)
                     }
-                    context.startActivity(intent)
                 },
                 enabled = hasRealPackage,
                 modifier = Modifier.fillMaxWidth(),
@@ -433,7 +441,27 @@ private fun AppGroupDetailSheet(
                     modifier = Modifier.size(18.dp)
                 )
                 Spacer(modifier = Modifier.width(8.dp))
-                Text(if (hasRealPackage) "Uninstall App" else "No Package to Uninstall")
+                Text(
+                    if (hasRealPackage) {
+                        stringResource(R.string.app_uninstall_threat)
+                    } else {
+                        "No Package to Uninstall"
+                    }
+                )
+            }
+
+            if (hasRealPackage) {
+                OutlinedButton(
+                    onClick = {
+                        val intent = Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS).apply {
+                            data = Uri.parse("package:${group.packageName}")
+                        }
+                        context.startActivity(intent)
+                    },
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    Text(stringResource(R.string.app_force_stop_disable))
+                }
             }
 
             // View in Timeline button

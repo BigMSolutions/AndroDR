@@ -1340,6 +1340,16 @@
     "reference": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware"
   },
   {
+    "packageName": "com.zjper.litewens",
+    "name": "Mirax",
+    "category": "MALWARE",
+    "campaign": "",
+    "severity": "CRITICAL",
+    "description": "Mirax Android Device Takeover (DTO) banking RAT & SOCKS5 residential proxy (Group-IB Aquafina campaign, 2026-11-05)",
+    "source": "threat_research",
+    "reference": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat/"
+  },
+  {
     "packageName": "com.zombieattack.defense",
     "name": "Android.MagicAd",
     "category": "MALWARE",
@@ -1390,6 +1400,26 @@
     "reference": "https://www.threatfabric.com/blogs/from-meta-ads-to-full-device-takeover-uncovering-streamrat"
   },
   {
+    "packageName": "io.crxti.systems11f",
+    "name": "Mirax",
+    "category": "MALWARE",
+    "campaign": "",
+    "severity": "CRITICAL",
+    "description": "Mirax Android Device Takeover (DTO) banking RAT & SOCKS5 residential proxy (Group-IB Aquafina campaign, 2026-11-05)",
+    "source": "threat_research",
+    "reference": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat/"
+  },
+  {
+    "packageName": "io.isvac.safemmz7g",
+    "name": "Mirax",
+    "category": "MALWARE",
+    "campaign": "",
+    "severity": "CRITICAL",
+    "description": "Mirax Android Device Takeover (DTO) banking RAT & SOCKS5 residential proxy (Group-IB Aquafina campaign, 2026-11-05)",
+    "source": "threat_research",
+    "reference": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat/"
+  },
+  {
     "packageName": "io.meat.hint",
     "name": "StreamRat",
     "category": "MALWARE",
@@ -1408,6 +1438,106 @@
     "description": "Manic implant impersonating a vendor system utility",
     "source": "threat_research",
     "reference": "https://www.threatfabric.com/blogs/manic-blend-between-banking-malware-and-spyware"
+  },
+  {
+    "packageName": "io.nmflf.pro4d2ll",
+    "name": "Mirax",
+    "category": "MALWARE",
+    "campaign": "",
+    "severity": "CRITICAL",
+    "description": "Mirax Android Device Takeover (DTO) banking RAT & SOCKS5 residential proxy (Group-IB Aquafina campaign, 2026-11-05)",
+    "source": "threat_research",
+    "reference": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat/"
+  },
+  {
+    "packageName": "io.svmlmt.mobilecu7sq",
+    "name": "Mirax",
+    "category": "MALWARE",
+    "campaign": "",
+    "severity": "CRITICAL",
+    "description": "Mirax Android Device Takeover (DTO) banking RAT & SOCKS5 residential proxy (Group-IB Aquafina campaign, 2026-11-05)",
+    "source": "threat_research",
+    "reference": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat/"
+  },
+  {
+    "packageName": "io.vvecxa.clientffb",
+    "name": "Mirax",
+    "category": "MALWARE",
+    "campaign": "",
+    "severity": "CRITICAL",
+    "description": "Mirax Android Device Takeover (DTO) banking RAT & SOCKS5 residential proxy (Group-IB Aquafina campaign, 2026-11-05)",
+    "source": "threat_research",
+    "reference": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat/"
+  },
+  {
+    "packageName": "io.xccqt.helper3mk",
+    "name": "Mirax",
+    "category": "MALWARE",
+    "campaign": "",
+    "severity": "CRITICAL",
+    "description": "Mirax Android Device Takeover (DTO) banking RAT & SOCKS5 residential proxy (Group-IB Aquafina campaign, 2026-11-05)",
+    "source": "threat_research",
+    "reference": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat/"
+  },
+  {
+    "packageName": "net.jsbzchba.clientpnzd",
+    "name": "Mirax",
+    "category": "MALWARE",
+    "campaign": "",
+    "severity": "CRITICAL",
+    "description": "Mirax Android Device Takeover (DTO) banking RAT & SOCKS5 residential proxy (Group-IB Aquafina campaign, 2026-11-05)",
+    "source": "threat_research",
+    "reference": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat/"
+  },
+  {
+    "packageName": "net.mfiaekme.toolgdqvu",
+    "name": "Mirax",
+    "category": "MALWARE",
+    "campaign": "",
+    "severity": "CRITICAL",
+    "description": "Mirax Android Device Takeover (DTO) banking RAT & SOCKS5 residential proxy (Group-IB Aquafina campaign, 2026-11-05)",
+    "source": "threat_research",
+    "reference": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat/"
+  },
+  {
+    "packageName": "net.rhnrektl.mobilejrs",
+    "name": "Mirax",
+    "category": "MALWARE",
+    "campaign": "",
+    "severity": "CRITICAL",
+    "description": "Mirax Android Device Takeover (DTO) banking RAT & SOCKS5 residential proxy (Group-IB Aquafina campaign, 2026-11-05)",
+    "source": "threat_research",
+    "reference": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat/"
+  },
+  {
+    "packageName": "net.vsqomby.toolc4s1x",
+    "name": "Mirax",
+    "category": "MALWARE",
+    "campaign": "",
+    "severity": "CRITICAL",
+    "description": "Mirax Android Device Takeover (DTO) banking RAT & SOCKS5 residential proxy (Group-IB Aquafina campaign, 2026-11-05)",
+    "source": "threat_research",
+    "reference": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat/"
+  },
+  {
+    "packageName": "net.wgrjvz.toolyt93a",
+    "name": "Mirax",
+    "category": "MALWARE",
+    "campaign": "",
+    "severity": "CRITICAL",
+    "description": "Mirax Android Device Takeover (DTO) banking RAT & SOCKS5 residential proxy (Group-IB Aquafina campaign, 2026-11-05)",
+    "source": "threat_research",
+    "reference": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat/"
+  },
+  {
+    "packageName": "net.yexqoe.systemlshkq",
+    "name": "Mirax",
+    "category": "MALWARE",
+    "campaign": "",
+    "severity": "CRITICAL",
+    "description": "Mirax Android Device Takeover (DTO) banking RAT & SOCKS5 residential proxy (Group-IB Aquafina campaign, 2026-11-05)",
+    "source": "threat_research",
+    "reference": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat/"
   },
   {
     "packageName": "net.yy.vwork",
@@ -1430,6 +1560,16 @@
     "reference": "https://www.threatfabric.com/blogs/new-trickmo-variant-device-take-over-malware-targeting-banking-fintech-wallet-auth-app"
   },
   {
+    "packageName": "nuttiness.pamperer.cosmetics",
+    "name": "Crocodilus",
+    "category": "MALWARE",
+    "campaign": "",
+    "severity": "CRITICAL",
+    "description": "Crocodilus Android device-takeover banking trojan dropper variant (ThreatFabric)",
+    "source": "threat_research",
+    "reference": "https://www.threatfabric.com/blogs/crocodilus-new-device-takeover-malware"
+  },
+  {
     "packageName": "org.azgaw.managergst1d",
     "name": "Mirax Bot",
     "category": "MALWARE",
@@ -1448,6 +1588,16 @@
     "description": "Mirax Bot Android banking RAT variant",
     "source": "threat_research",
     "reference": "https://www.cleafy.com/cleafy-labs/mirax-a-new-android-rat-turning-infected-devices-into-potential-residential-proxy-nodes"
+  },
+  {
+    "packageName": "org.fxutpep.utility0ql",
+    "name": "Mirax",
+    "category": "MALWARE",
+    "campaign": "",
+    "severity": "CRITICAL",
+    "description": "Mirax Android Device Takeover (DTO) banking RAT & SOCKS5 residential proxy (Group-IB Aquafina campaign, 2026-11-05)",
+    "source": "threat_research",
+    "reference": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat/"
   },
   {
     "packageName": "org.honor.secure.helper",
@@ -1470,6 +1620,16 @@
     "reference": "https://www.threatfabric.com/blogs/manic-blend-between-banking-malware-and-spyware"
   },
   {
+    "packageName": "org.lfzfxjmb.securejp65",
+    "name": "Mirax",
+    "category": "MALWARE",
+    "campaign": "",
+    "severity": "CRITICAL",
+    "description": "Mirax Android Device Takeover (DTO) banking RAT & SOCKS5 residential proxy (Group-IB Aquafina campaign, 2026-11-05)",
+    "source": "threat_research",
+    "reference": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat/"
+  },
+  {
     "packageName": "org.lgvvfj.pluscqpuj",
     "name": "Mirax Bot",
     "category": "MALWARE",
@@ -1480,6 +1640,46 @@
     "reference": "https://www.cleafy.com/cleafy-labs/mirax-a-new-android-rat-turning-infected-devices-into-potential-residential-proxy-nodes"
   },
   {
+    "packageName": "org.pruvqil.appq1km",
+    "name": "Mirax",
+    "category": "MALWARE",
+    "campaign": "",
+    "severity": "CRITICAL",
+    "description": "Mirax Android Device Takeover (DTO) banking RAT & SOCKS5 residential proxy (Group-IB Aquafina campaign, 2026-11-05)",
+    "source": "threat_research",
+    "reference": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat/"
+  },
+  {
+    "packageName": "org.xifbep.utilityt50",
+    "name": "Mirax",
+    "category": "MALWARE",
+    "campaign": "",
+    "severity": "CRITICAL",
+    "description": "Mirax Android Device Takeover (DTO) banking RAT & SOCKS5 residential proxy (Group-IB Aquafina campaign, 2026-11-05)",
+    "source": "threat_research",
+    "reference": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat/"
+  },
+  {
+    "packageName": "org.xrmhvlfx.litewnj3h",
+    "name": "Mirax",
+    "category": "MALWARE",
+    "campaign": "",
+    "severity": "CRITICAL",
+    "description": "Mirax Android Device Takeover (DTO) banking RAT & SOCKS5 residential proxy (Group-IB Aquafina campaign, 2026-11-05)",
+    "source": "threat_research",
+    "reference": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat/"
+  },
+  {
+    "packageName": "org.yhjrihi.managerrk9u6",
+    "name": "Mirax",
+    "category": "MALWARE",
+    "campaign": "",
+    "severity": "CRITICAL",
+    "description": "Mirax Android Device Takeover (DTO) banking RAT & SOCKS5 residential proxy (Group-IB Aquafina campaign, 2026-11-05)",
+    "source": "threat_research",
+    "reference": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat/"
+  },
+  {
     "packageName": "org.yjeiwd.plusdc71",
     "name": "Mirax Bot",
     "category": "MALWARE",
@@ -1488,6 +1688,26 @@
     "description": "Mirax Bot Android banking RAT variant",
     "source": "threat_research",
     "reference": "https://www.cleafy.com/cleafy-labs/mirax-a-new-android-rat-turning-infected-devices-into-potential-residential-proxy-nodes"
+  },
+  {
+    "packageName": "p1a1fa04c.pae25061e.p658c02c8",
+    "name": "BingoMod",
+    "category": "MALWARE",
+    "campaign": "",
+    "severity": "CRITICAL",
+    "description": "BingoMod Android RAT & on-device fraud trojan with post-theft device wipe capability (Cleafy / MalwareBazaar)",
+    "source": "threat_research",
+    "reference": "https://www.cleafy.com/cleafy-labs/bingomod-the-new-android-rat-that-steals-money-and-wipes-data"
+  },
+  {
+    "packageName": "quizzical.washbowl.calamity",
+    "name": "Crocodilus",
+    "category": "MALWARE",
+    "campaign": "",
+    "severity": "CRITICAL",
+    "description": "Crocodilus Android device-takeover banking trojan with Accessibility screen-harvesting & black-screen overlay (ThreatFabric)",
+    "source": "threat_research",
+    "reference": "https://www.threatfabric.com/blogs/crocodilus-new-device-takeover-malware"
   },
   {
     "packageName": "ru.y34tuy.t8595",

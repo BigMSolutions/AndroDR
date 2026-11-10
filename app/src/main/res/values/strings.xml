@@ -576,4 +576,29 @@
     <string name="privacy_new_tag">new since last scan</string>
     <string name="privacy_back">Back</string>
     <string name="privacy_more">More options</string>
+
+    <!-- Branding — Built by Big M Solutions -->
+    <string name="brand_built_by">Built by Big M Solutions</string>
+    <string name="settings_about_builder">Built by</string>
+    <string name="settings_about_builder_value">Big M Solutions</string>
+
+    <!-- Active Spyware & Malware Remediation Console -->
+    <string name="remediation_title">Active Threat Remediation</string>
+    <string name="remediation_subtitle_clean">Live implant guard, C2 DNS sinkhole, and one-tap system hardening ready</string>
+    <string name="remediation_subtitle_threats" tools:ignore="PluralsCandidate">%1$d threat package(s) ready for active neutralization</string>
+    <string name="remediation_clean_cta">Clean &amp; Neutralize All Threats</string>
+    <string name="remediation_cleaning">Neutralizing threats &amp; purging artifacts…</string>
+    <string name="remediation_sinkhole_active">C2 &amp; Spyware DNS Sinkhole Active</string>
+    <string name="remediation_sinkhole_enable">Enable C2 &amp; Spyware DNS Sinkhole</string>
+    <string name="remediation_uninstall_pkg">Uninstall %1$s</string>
+    <string name="remediation_disable_preload">Force-Stop / Disable %1$s</string>
+    <string name="remediation_report_summary" tools:ignore="PluralsCandidate">Cleaned: %1$d process(es) stopped · %2$d artifact(s) purged · C2 sinkhole armed</string>
+    <string name="remediation_root_summary" tools:ignore="PluralsCandidate">Root deep clean: %1$d package(s) removed · %2$d appops revoked · ADB locked</string>
+    <string name="remediation_hardening_title">One-Tap System Hardening</string>
+    <string name="remediation_harden_adb">Disable USB/Wi-Fi ADB</string>
+    <string name="remediation_harden_accessibility">Revoke Accessibility</string>
+    <string name="remediation_harden_admins">Revoke Device Admins</string>
+    <string name="remediation_harden_ads">Reset Advertising ID</string>
+    <string name="app_uninstall_threat">Uninstall Threat</string>
+    <string name="app_force_stop_disable">Force-Stop / Disable in App Info</string>
 </resources>

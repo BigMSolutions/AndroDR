@@ -3322,6 +3322,17 @@
     "blockByDefault": true
   },
   {
+    "domain": "kenobuias.com",
+    "familyName": "Mirax",
+    "category": "MALWARE",
+    "campaign": "",
+    "severity": "CRITICAL",
+    "description": "Mirax Android Device Takeover RAT dual-WebSocket C2 server (Group-IB Aquafina campaign, 2026-11-05)",
+    "source": "threat_research",
+    "reference": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat/",
+    "blockByDefault": false
+  },
+  {
     "domain": "kidlogger.net",
     "familyName": "KidsShield",
     "category": "STALKERWARE",
@@ -4441,6 +4452,17 @@
     "description": "Origin server for WhatsPlus modded-WhatsApp distribution (payload delivery/C2). Listed by ThreatFox without a malware family. Remediation: uninstall any WhatsApp mod and reinstall official WhatsApp from Google Play.",
     "source": "threatfox",
     "reference": "feed:threatfox#Unknown malware",
+    "blockByDefault": false
+  },
+  {
+    "domain": "oscofneuid.com",
+    "familyName": "Mirax",
+    "category": "MALWARE",
+    "campaign": "",
+    "severity": "CRITICAL",
+    "description": "Mirax Android Device Takeover RAT dual-WebSocket C2 server (Group-IB Aquafina campaign, 2026-11-05)",
+    "source": "threat_research",
+    "reference": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat/",
     "blockByDefault": false
   },
   {

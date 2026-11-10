@@ -7540,6 +7540,16 @@
     "reference": "feed:threatfox#Triada"
   },
   {
+    "apkHash": "a769c40ce48a38eed8897447081fc002d567535943befc4b51d866d134953588",
+    "familyName": "BingoMod",
+    "category": "MALWARE",
+    "campaign": "",
+    "severity": "CRITICAL",
+    "description": "BingoMod Android RAT & banking fraud APK with anti-forensic wipe capability (MalwareBazaar / Cleafy)",
+    "source": "malwarebazaar",
+    "reference": "https://bazaar.abuse.ch/sample/a769c40ce48a38eed8897447081fc002d567535943befc4b51d866d134953588/"
+  },
+  {
     "apkHash": "a8a0fb66997cb80a1c8881436186b6f9c8b0480ec02949b2f90b61aa12d81bd4",
     "familyName": "ToxicPanda",
     "category": "MALWARE",
@@ -8810,6 +8820,16 @@
     "reference": "feed:zimperium-ioc#Rokarolla"
   },
   {
+    "apkHash": "c5e3edafdfda1ca0f0554802bbe32a8b09e8cc48161ed275b8fec6d74208171f",
+    "familyName": "Crocodilus",
+    "category": "MALWARE",
+    "campaign": "",
+    "severity": "CRITICAL",
+    "description": "Crocodilus Android device-takeover trojan APK sample (ThreatFabric)",
+    "source": "threat_research",
+    "reference": "https://www.threatfabric.com/blogs/crocodilus-new-device-takeover-malware"
+  },
+  {
     "apkHash": "c62faa663c6989f63aa8bb821ee5aa293cb3a185c68ee9bf16058d36247c8e8b",
     "familyName": "AntiDot",
     "category": "MALWARE",
@@ -9760,6 +9780,16 @@
     "reference": "feed:threatfox#Triada"
   },
   {
+    "apkHash": "ddd9e5cfa9e1ddd8d849baef2b487a1608d1695f44c70f246c101de1275887dd",
+    "familyName": "NGate",
+    "category": "MALWARE",
+    "campaign": "",
+    "severity": "CRITICAL",
+    "description": "NGate contactless NFC payment card relay Android malware APK (ESET)",
+    "source": "threat_research",
+    "reference": "https://www.welivesecurity.com/en/eset-research/ngate-android-malware-relays-nfc-traffic-steal-cash/"
+  },
+  {
     "apkHash": "de64c39abb0e2485eef7a95a8b6c321e3c8e967e27e641e8a880b478e9292dd7",
     "familyName": "AntiDot",
     "category": "MALWARE",
@@ -9918,6 +9948,16 @@
     "description": "ESET Android ProSpy/ToSpy sample",
     "source": "threat_research",
     "reference": "https://github.com/eset/malware-ioc/blob/master/prospytospy/samples.sha256"
+  },
+  {
+    "apkHash": "e19a7c8e4994ea4ed680136c9e3a6fff7b82c72f5743952821a446b6cb830f06",
+    "familyName": "NGate",
+    "category": "MALWARE",
+    "campaign": "",
+    "severity": "CRITICAL",
+    "description": "NGate contactless NFC payment card relay Android malware APK (ESET)",
+    "source": "threat_research",
+    "reference": "https://www.welivesecurity.com/en/eset-research/ngate-android-malware-relays-nfc-traffic-steal-cash/"
   },
   {
     "apkHash": "e212048d36bd97aec33b1baa4c1c02ccf0d4cd6b04a951b65112726246170a27",

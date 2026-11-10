@@ -290,6 +290,10 @@ fun SettingsScreen(viewModel: SettingsViewModel = hiltViewModel()) {
                     verticalArrangement = Arrangement.spacedBy(6.dp)
                 ) {
                     val device = listOf(Build.MANUFACTURER, Build.MODEL).joinToString(" ")
+                    StatRow(
+                        stringResource(R.string.settings_about_builder),
+                        stringResource(R.string.settings_about_builder_value),
+                    )
                     StatRow(stringResource(R.string.settings_about_version), appVersion.name)
                     StatRow(stringResource(R.string.settings_about_build), appVersion.code.toString())
                     StatRow(

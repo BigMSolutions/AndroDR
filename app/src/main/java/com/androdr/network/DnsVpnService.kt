@@ -432,7 +432,7 @@ class DnsVpnService : VpnService() {
         val srcIpBytes = packet.copyOfRange(12, 16)
 
         val isBlocklisted = blocklistManager.isBlocked(hostname)
-        val iocHit = if (!isBlocklisted) indicatorResolver.isKnownBadDomain(hostname) else null
+        val iocHit = if (!isBlocklisted) indicatorResolver.isKnownBadDomainWithBundle(hostname) else null
         val owner = DnsQueryAttribution.ownerOf(packet, connectionOwner)
         val now = System.currentTimeMillis()
 
