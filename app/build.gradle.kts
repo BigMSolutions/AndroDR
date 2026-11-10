@@ -17,8 +17,8 @@ buildscript {
             // jackson itself (still 3.3.0 as of 2026-07-16).
             // 2.21.7 (2026-10-17): jackson-core <= 2.21.6 carries GHSA-p6pp-m3f8-5c89 and
             // GHSA-7hhh-6rmp-j9qf (high); pin core explicitly so databind can't resolve an older one.
-            classpath("com.fasterxml.jackson.core:jackson-databind:2.21.7")
-            classpath("com.fasterxml.jackson.core:jackson-core:2.21.7")
+            classpath("com.fasterxml.jackson.core:jackson-databind:2.22.4")
+            classpath("com.fasterxml.jackson.core:jackson-core:2.22.4")
 
             // CycloneDX (via maven-core) pulls guava 33.6.0-jre (GHSA-xxph-c9ww-hj94, fixed in
             // 33.7.2). The root build file pins the same version for the plugin classpath.
