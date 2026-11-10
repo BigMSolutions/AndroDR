@@ -1,67 +1,67 @@
 [versions]
 # Build tools
-agp = "8.7.3"
-kotlin = "2.0.0"
-ksp = "2.0.0-1.0.21"
+agp = "9.5.1"
+kotlin = "2.4.21"
+ksp = "2.3.13"
 
 # AndroidX core
-coreKtx = "1.13.1"
+coreKtx = "1.19.1"
 lifecycleRuntimeKtx = "2.8.4"
 activityCompose = "1.9.1"
 
 # Compose
-composeBom = "2024.09.00"
+composeBom = "2026.09.00"
 
 # Navigation
-navigationCompose = "2.7.7"
+navigationCompose = "2.10.2"
 
 # Hilt
-hilt = "2.51.1"
-hiltNavigationCompose = "1.2.0"
+hilt = "2.60.1"
+hiltNavigationCompose = "1.4.0"
 
 # Room
-room = "2.6.1"
+room = "2.8.5"
 
 # Coroutines
-coroutines = "1.8.1"
+coroutines = "1.11.0"
 
 # Serialization
-kotlinxSerialization = "1.7.1"
+kotlinxSerialization = "1.12.0"
 
 # WorkManager
-workManager = "2.9.1"
+workManager = "2.12.0"
 
 # DataStore
-datastore = "1.1.1"
+datastore = "1.3.0"
 
 # YAML parsing
-snakeyamlEngine = "2.7"
+snakeyamlEngine = "3.2"
 
 # Code quality & security
-detekt = "1.23.7"
+detekt = "1.23.8"
 # owaspDepCheck removed -- replaced by Dependabot (.github/dependabot.yml)
-cyclonedx = "3.3.0"
+cyclonedx = "3.5.1"
 
 # Testing
 junit = "4.13.2"
 junitExt = "1.2.1"
 espressoCore = "3.6.1"
-mockk = "1.13.12"
-orgJson = "20240303"
-jsonSchemaValidator = "2.0.1"
-robolectric = "4.14.1"
+mockk = "1.14.11"
+orgJson = "20260814"
+jsonSchemaValidator = "3.0.9"
+robolectric = "4.17"
 # Robolectric 4.14.1's SDK 35 artifact (DefaultSdkProvider: 15 / 12650502 / i7)
-robolectricAndroidAll = "15-robolectric-12650502-i7"
+robolectricAndroidAll = "17-robolectric-16653203-i7"
 # Robolectric 4.14.1 pulls bcprov-jdk18on 1.78.1 (GHSA-574f-3g2m-x479, GHSA-9pwp-9qqc-pr26,
 # GHSA-qp49-qgx5-5m26); 1.85 fixes all three. Pinned strictly on the test classpath (app/build.gradle.kts).
-bouncycastle = "1.85"
+bouncycastle = "1.86"
 # Robolectric 4.14.1 pulls guava 33.3.1-jre (GHSA-xxph-c9ww-hj94, high: fixed in 33.7.2). Test classpath only.
-guava = "33.7.2-jre"
+guava = "33.8.0-jre"
 androidxTestCore = "1.6.1"
 
 # Paging / collections (telemetry store)
-paging = "3.3.6"
-androidxCollection = "1.4.0"
+paging = "3.5.3"
+androidxCollection = "1.7.0"
 
 [libraries]
 # AndroidX Core
